@@ -15,6 +15,8 @@ var minute = time.getMinutes();
 
 if(minute<10)
   minute = "0"+minute;
+if(hour<10)
+  hour ="0"+hour;
 
 $("#displaytime").text(hour + ":"+minute);
 
